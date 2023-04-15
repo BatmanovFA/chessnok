@@ -1,3 +1,5 @@
+import card
+
 DECK = [
     "Pawn",
     "Pawn",
@@ -23,3 +25,11 @@ FIGURE = [
     "Rook",
     "Queen"
 ]
+
+FIGURE_TYPES = {
+    "Pawn": card.Pawn,
+    "Knight": card.Knight,
+    "Bishop": card.Bishop,
+    "Rook": card.Rook,
+    "Queen": card.Queen
+}
